@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo3ff.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style/signUp.css">
+
+    
+    <title>Login</title>
+</head>
+<body>
+    
+
+          
+
+          <div class="login-container"> 
+              <p class="login-title">Create account</p>
+              <p class="error_message" id="error_message"></p>
+              <form method="post" class="login-form"> 
+
+                  <label for="email" class="login-text">Name:</label><br/>
+
+                  <input type="text" name="user-email" id="user_email"class="login-components"><br/><br>  
+                  <label for="email" class="login-text">Email:</label><br/>
+
+                  <input type="email" name="user-email" id="user_email"class="login-components"><br/><br/>
+
+                  <label for="password" class="login-text">Password:</label><br/>
+
+                  <input type="password" name="user-password" id="user-password" class="login-components"><br/> <br/>
+                  <label for="password" class="login-text">Confirm Password:</label><br/>
+
+                  <input type="password" name="user-password" id="user-password" class="login-components"><br/><br/><br/>
+
+                  <input type="button" value="sign Up" class="btn-text" onclick="login()" id="loginbtn">
+                  <p class="notHavingAccount">Already have account?<span id="signUp"><b><a href="./login.html"> Login here</a><b></span></p>
+              </form>
+
+          </div>
+
+          <!--<footer-bar></footer-bar>-->
+           <script src="../javaScript/login.js"></script> 
+         <!--<script  src="../javaScript/footer.js"></script>-->
+          
+         
+</body>
+
+  
+</html>
