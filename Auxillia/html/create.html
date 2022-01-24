@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo3ff.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style/create.css">
+
+    
+    <title>Login</title>
+</head>
+<body>
+    
+
+          
+
+          <div class="login-container"> 
+              <p class="login-title">Create blog</p>
+              <p class="error_message" id="error_message"></p>
+              <form method="post" class="login-form"> 
+
+                  <label for="title" class="login-text">Title</label><br/>
+
+                  <input type="text" name="title" id="blog-title"class="title-input"><br/><br>  
+                   
+                  <p class="error title-error"></p>
+                  
+                  <label for="body" class="login-text">Body:</label><br/>
+
+                  <textarea name="body" id="blog-body" cols="35" rows="20" class="body-input"></textarea>
+
+                  <p class="error body-error"></p>
+                  
+
+                  <label for="image" class="login-text">choose file:</label><br/> 
+
+                  <input type="file" name="image" id="blog-image" class="image-input"><br/> <br/>
+                  
+                  <input type="button" value="create blog" class="btn-text" id="createbtn" >
+                  <input type="button" value="cancel" class="cancel-btn"  id="cancelbtn">
+
+              </form>
+
+          </div>
+
+          <!--<footer-bar></footer-bar>-->
+           <script src="../javaScript/login.js"></script> 
+         <!--<script  src="../javaScript/footer.js"></script>-->
+          
+         
+</body>
+
+  
+</html>
